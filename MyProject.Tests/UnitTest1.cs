@@ -10,6 +10,7 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        var actual = 1;
+        Assert.AreEqual(actual: actual, expected: 1);
     }
 }
