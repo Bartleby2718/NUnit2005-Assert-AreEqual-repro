@@ -11,6 +11,6 @@ public class Tests
     public void Test1()
     {
         var actual = 1;
-        Assert.AreEqual(actual: actual, expected: 1);
+		Assert.That(expected: 1, Is.EqualTo(actual: actual));
     }
 }
